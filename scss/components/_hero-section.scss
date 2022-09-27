@@ -1,0 +1,89 @@
+.hero { 
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+    max-height: 400px;
+   
+
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url('../images/mobile-foto/mobile-overlay-foto-1x.jpg');
+            background-repeat: no-repeat;
+            background-size: 480px 400px;
+    background-color: var(--background-color-bord);
+
+    text-align: center;
+    line-height: 0;
+    padding-top: 118px;
+    padding-bottom: 118px;
+   
+
+    &__title{
+        margin-bottom: 30px;
+        font-size: 26px;
+        line-height: 1.61;
+
+        margin-top: 0;
+        text-align: center;
+        color: var(--color-text);
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase
+    }
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+(min-resolution: 192dpi) and (max-width:767px),
+(min-resolution: 2) and (max-width:767px) {
+    .hero {
+        background-image: url('../images/mobile-foto/mobile-overlay-foto@2x.jpg');
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .hero {
+        background-image: url('../images/tablet-foto/tablet-overlay-foto-1x.jpg');
+        background-size: 768px 400px;
+        max-width: 768px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px), 
+           (min-resolution: 192dpi) and (min-width:768px) , 
+           (min-resolution: 2) and (min-width:768px) {
+            .hero {
+                background-image: url('../images/tablet-foto/tablet-overlay-foto@2x.jpg');
+            }
+           } 
+
+@media  screen and (min-width: 1200px) {
+    .hero {
+        background-image: url('../images/desktop-foto/desktop-overlay-foto-1x.jpg');
+        background-size: 1600px 600px;
+        max-width: 1600px;
+        max-height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+        &__title {
+            font-size: 44px;
+            line-height: 1.36;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:1200px), 
+           (min-resolution: 192dpi) and (min-width:1200px) , 
+           (min-resolution: 2) and (min-width:1200px) {
+            .hero {
+                
+                background-image: url('../images/desktop-foto/desktop-overlay-foto@2x.jpg');
+            }
+           } 
+
+

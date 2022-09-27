@@ -1,0 +1,56 @@
+.team__social--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.team__social--item {
+    margin-right: 10px;
+
+    &:last-child { margin-right: 0;}
+}
+
+// .team__social--item:last-child {
+//     margin-right: 0;
+// }
+
+.team__social--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+
+    color: var(--color-icons);
+    text-decoration: none;
+
+    &:hover , &:focus {background-color: var(--color-active);
+        color: var(--color-text);
+
+    }
+}
+
+// .team__social--link:hover,
+// .team__social--link:focus {
+//     background-color: var(--color-active);
+//     color: var(--color-text);
+// }
+
+.team__social--icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}

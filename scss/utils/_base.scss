@@ -1,0 +1,25 @@
+
+
+body {
+    font-family: var(--font-family-primary);
+    color: var(--color-primary);
+    background-color: var(--background-color-primary);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+  .filter__list,
+  .examples__list,
+  .menu__list,
+  .benefits__list,
+  .services__list,
+  .team__list,
+  .team__social--list,
+  .footer__social--list,
+  .clients__list {
+      list-style-type: none;
+  }
+
+  img {
+    display: block;
+  }
