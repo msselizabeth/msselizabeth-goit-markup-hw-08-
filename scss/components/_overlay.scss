@@ -13,27 +13,23 @@
     align-items: center;
 
     background-color: rgba(33, 150, 243, 0.9);
-}
-
-.overlay__paragraph {
-    margin: 0;
-    padding: 63px 24px;
-
-
     color: var(--color-text);
-
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
+    padding: 63px 24px;
+
+    text-decoration: none;
+
+    &__box {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
 }
 
-.overlay__box {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
-.examples__item:hover .overlay {
+.examples__item:hover .overlay ,
+.examples__item:focus .overlay {
     transform: translateY(0);
 }
 

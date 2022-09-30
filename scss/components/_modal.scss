@@ -8,7 +8,12 @@
     
 }
 
+.modal-container {
+    overflow: scroll;
+}
+
 .modal__inner {
+    
     padding: 40px;
 }
 
@@ -44,12 +49,11 @@
 @media screen and (max-width:767px) {
     .modal { 
         position: relative;
-        
-       
           
     }
-.modal-container {
-   padding: 93px 15px;
+
+    .modal-container {
+   padding: 70px 15px;
 }
    
 }
@@ -58,7 +62,7 @@
     .modal { position: relative;
     
         &-container {
-            padding: 208px 159px;
+            padding: 100px 159px;
         }
     }
 }
@@ -77,5 +81,4 @@
         min-height: 581px;
     }
 }
-
 

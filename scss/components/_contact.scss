@@ -37,7 +37,12 @@
         margin-right: 8px;
         fill: currentColor;
     }
-}
+
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+   }
 }
 
 @media screen and (min-width:1200px) {

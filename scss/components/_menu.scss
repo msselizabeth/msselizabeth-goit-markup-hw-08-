@@ -15,6 +15,14 @@
     color: var(--color-active);
 }
 
+.menu__link.current::after {
+    opacity: 1;
+}
+
+.menu__link.current {
+    color: var(--color-active);
+}
+
 @media screen and (max-width:767px) {
 
 .menu__logo{
@@ -32,6 +40,10 @@
         background-color: transparent;
         line-height: 0;
         margin-left: auto;
+
+        &:hover , &:focus {
+            fill: var(--color-active);
+        }
     }
     
     .icon-burger {
@@ -111,9 +123,7 @@
     &:hover, &:focus {color: var(--color-active); }
 }
 
-.menu__link.current::after {
-    opacity: 1;
-}
+
 
 
 @media screen and (min-width:1200px) {

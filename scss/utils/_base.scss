@@ -23,3 +23,16 @@ body {
   img {
     display: block;
   }
+
+  .mobile-menu__social , 
+.mobile-menu__contacts , 
+.mobile-menu__pages{
+    list-style-type: none;
+}
+
+.mobile-menu__social--link,
+.mobile-menu__pages--link,
+.mobile-menu__contacts--tel,
+.mobile-menu__contacts--mail  {
+    text-decoration: none;
+}
